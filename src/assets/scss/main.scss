@@ -1,0 +1,127 @@
+@import './fonts.scss';
+
+@tailwind base;
+
+/**
+ * Base Stuff
+ */
+
+p {
+    @apply mb-4;
+} 
+
+h1 {
+    @apply text-6xl;
+}
+
+h2 {
+    @apply text-4xl;
+}
+
+h3 {
+    @apply text-3xl;
+}
+
+h4 {
+    @apply text-2xl;
+}
+
+h5 {
+    @apply text-xl;
+}
+
+
+
+@tailwind components;
+@tailwind utilities;
+
+@import './prism.scss';
+
+/**
+ * Header
+ */
+
+.header-links {
+    a {
+        @apply text-white;
+
+        &:hover {
+            @apply text-gray-400;
+        }
+    }
+
+    .active--exact {
+        @apply text-smalt-blue-500;
+    }
+}
+
+/**
+ * Page Header
+ */
+
+.page-header { 
+    img {
+        @apply opacity-40;
+        @apply absolute;
+        @apply object-cover;
+        @apply top-0;
+        @apply left-0;
+        @apply w-full;
+        @apply h-full;
+        @apply -z-10;
+    }
+    
+    .bg-pattern {
+        background-image: url('../images/pattern.svg');
+        @apply opacity-10;
+        @apply absolute;
+        @apply top-0;
+        @apply left-0;
+        @apply w-full;
+        @apply h-full;
+        @apply -z-10;
+    }
+}
+
+
+
+/**
+ * Footer
+ */
+.footer-links {
+    a {
+        @apply text-gray-400;
+
+        &:hover {
+            @apply text-white;
+        }
+    }
+}
+
+/**
+ * Embed
+ */
+
+.embed-responsive {
+
+    @apply relative;
+    @apply block;
+    height: 0;
+    
+    .embed-responsive-item {
+        @apply w-full;
+        @apply h-full;
+        &>iframe,
+        &>embed,
+        &>object,
+        &>video {
+            @apply absolute;
+            @apply top-0;
+            @apply left-0;
+            @apply bottom-0;
+            @apply border-none;
+            @apply h-full;
+            @apply w-full;
+        }
+    }
+}

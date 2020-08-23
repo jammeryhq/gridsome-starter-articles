@@ -1,0 +1,211 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+/* http://k88hudson.github.io/react-markdocs */
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+/*********************************************************
+* General
+*/
+pre[class*="language-"],
+code[class*="language-"] {
+    color: #5c6e74;
+    @apply text-base;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+pre[class*="language-"]::selection,
+code[class*="language-"]::selection,
+pre[class*="language-"]::mozselection,
+code[class*="language-"]::mozselection {
+    text-shadow: none;
+    @apply bg-gray-200;
+}
+
+pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    @apply bg-gray-200;
+}
+
+:not(pre)>code[class*="language-"] {
+    padding: .3em .3em;
+    border-radius: .3em;
+    color: #db4c69;
+    @apply bg-gray-200;
+    @apply mx-1;
+}
+
+@media print {
+
+    pre[class*="language-"],
+    code[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+
+/*********************************************************
+* Tokens
+*/
+.namespace {
+    opacity: .7;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: #93a1a1;
+}
+
+.token.punctuation {
+    color: #999999;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+    color: #990055;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+    color: #669900;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+    color: #a67f59;
+    background: transparent;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+    color: #0077aa;
+}
+
+.token.function {
+    color: #dd4a68;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+    color: #ee9900;
+}
+
+.token.important,
+.token.bold {
+    font-weight: bold;
+}
+
+.token.italic {
+    font-style: italic;
+}
+
+.token.entity {
+    cursor: help;
+}
+
+/*********************************************************
+* Line highlighting
+*/
+pre[data-line] {
+    position: relative;
+}
+
+pre[class*="language-"]>code[class*="language-"] {
+    position: relative;
+    z-index: 1;
+}
+
+.line-highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: inherit 0;
+    margin-top: 1em;
+    background: #000;
+    box-shadow: inset 5px 0 0 #f7d87c;
+    z-index: 0;
+    pointer-events: none;
+    line-height: inherit;
+    white-space: pre;
+}
+
+/**
+ * Add back the container background-color, border-radius, padding, margin
+ * and overflow that we removed from <pre>.
+ */
+.gridsome-highlight {
+    @apply bg-shark-50;
+    border-radius: 0.3em;
+    margin: 0.5em 0;
+    padding: 1em;
+    overflow: auto;
+}
+
+.gridsome-highlight-code-line {
+    @apply bg-shark-100;
+    display: block;
+    margin-right: -1em;
+    margin-left: -1em;
+    padding-right: 1em;
+    padding-left: 0.75em;
+    @apply border-l-4;
+    @apply border-gray-500;
+}
+
+/**
+ * Remove the default PrismJS theme background-color, border-radius, margin,
+ * padding and overflow.
+ * 1. Make the element just wide enough to fit its content.
+ * 2. Always fill the visible space in .gatsby-highlight.
+ * 3. Adjust the position of the line numbers
+ */
+.gridsome-highlight pre[class*="language-"] {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    overflow: initial;
+    float: left;
+    /* 1 */
+    min-width: 100%;
+    /* 2 */
+}
+
+/* Adjust the position of the line numbers */
+.gridsome-highlight pre[class*="language-"].line-numbers {
+    @apply pl-12;
+}
