@@ -130,5 +130,8 @@ module.exports = {
         }]
       ]
     }
+  },
+  chainWebpack: config => {
+    config.resolve.alias.set('@customPageImage', '@/../content/pages');
   }
 }

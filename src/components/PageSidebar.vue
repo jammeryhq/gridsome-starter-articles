@@ -21,7 +21,7 @@
     </div>
 
     <div
-      v-if="record.tags.length>0"
+      v-if="record.tags && record.tags.length>0"
       class="tags d-lg-block d-none"
       :class="[subtitles.length>0 ? 'mt-3' : '']">
       <p class="border-b-4 pb-3 border-gray-200 text-xl">

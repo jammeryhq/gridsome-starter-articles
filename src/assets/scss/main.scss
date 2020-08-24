@@ -30,7 +30,19 @@ h5 {
     @apply text-xl;
 }
 
+ul, ol {
+    @apply ml-4;
+    @apply pl-4;
+    @apply mb-4;
+}
 
+ul {
+    @apply list-disc;
+}
+
+ol {
+    @apply list-decimal;
+}
 
 @tailwind components;
 @tailwind utilities;
