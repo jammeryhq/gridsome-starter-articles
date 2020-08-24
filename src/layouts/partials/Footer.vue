@@ -14,9 +14,9 @@
           </svg>
           <span class="ml-2 text-xl">{{ $static.metadata.siteName }}</span>
         </g-link>
-        <p class="text-sm md:ml-6 md:mt-0 mt-4">
+        <div class="text-sm md:ml-6 md:mt-0 mt-4">
           © {{ currentYear }} {{ $static.metadata.siteName }}
-        </p>
+        </div>
         <div class="footer-links inline-flex md:ml-auto md:mt-0 mt-4 justify-center md:justify-start">
           <g-link
             to="/pages/sample-page-1"
