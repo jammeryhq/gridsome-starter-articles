@@ -1,10 +1,10 @@
 <template>
   <div>
-    <nav class="relative z-0 inline-flex shadow-sm">
+    <nav class="relative z-0 inline-flex shadow-sm text-sm leading-5 font-medium">
       <g-link
         v-if="!isFirstPage(currentPage, totalPages)"
         :to="previousPage(currentPage,totalPages)"
-        class="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-white hover:bg-gray-100 text-sm leading-5 font-medium text-gray-500 hover:text-smalt-blue-500 focus:outline-none transition ease-in-out duration-150"
+        class="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-white hover:bg-gray-100 text-gray-500 hover:text-smalt-blue-500 focus:outline-none"
         aria-label="Previous">
         <svg
           class="h-5 w-5"
@@ -26,14 +26,14 @@
           'rounded-l-md' : isFirstPage(currentPage, totalPages) && page.name === 1,
           'rounded-r-md' : isLastPage(currentPage, totalPages) && page.name === totalPages
         }"
-        class="-ml-px relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm leading-5 font-medium hover:text-smalt-blue-500 focus:z-10 focus:outline-none transition ease-in-out duration-150">
+        class="-ml-px relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm leading-5 font-medium hover:text-smalt-blue-500 focus:outline-none">
         {{ page.name }}
       </g-link>
 
       <g-link
         v-if="!isLastPage(currentPage, totalPages)"
         :to="nextPage(currentPage,totalPages)"
-        class="-ml-px relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white hover:bg-gray-100 text-sm leading-5 font-medium text-gray-500 hover:text-smalt-blue-500  focus:outline-none  transition ease-in-out duration-150"
+        class="-ml-px relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white hover:bg-gray-100 text-gray-500 hover:text-smalt-blue-500 focus:outline-none"
         aria-label="Next">
         <svg
           class="h-5 w-5"
@@ -52,9 +52,18 @@
 <script>
 export default {
   props: {
-    baseUrl: String,
-    currentPage: Number,
-    totalPages: Number,
+    baseUrl: {
+      type: String,
+      default: '/'
+    },
+    currentPage: {
+      type: Number,
+      required: true
+    },
+    totalPages: {
+      type: Number,
+      required: true
+    },
     maxVisibleButtons: {
       type: Number,
       required: false,
@@ -90,13 +99,13 @@ export default {
   },
   methods: {
     isFirstPage (currentPage, totalPages) {
-      return currentPage == 1;
+      return currentPage === 1;
     },
     isLastPage (currentPage, totalPages) {
-      return currentPage == totalPages;
+      return currentPage === totalPages;
     },
     isCurrentPage (currentPage, pageElement) {
-      return currentPage == pageElement;
+      return currentPage === pageElement;
     },
     nextPage (currentPage, totalPages) {
       return `${this.baseUrl}/${currentPage + 1}`;

@@ -6,11 +6,11 @@
       </template>
       <template v-slot:content>
         <p class="text-4xl md:text-6xl">
-          Articles
+          News
         </p>
         <p
           class="text-lg md:text-2xl">
-          We have currently {{ $page.records.totalCount }} articles in our list
+          We have currently {{ $page.records.totalCount }} entries in our list
         </p>
       </template>
     </PageHeader>
@@ -28,7 +28,7 @@
         v-if="$page.records.pageInfo.totalPages > 1"
         class="mt-12 flex justify-center">
         <Pagination
-          base-url="/articles"
+          base-url="/news"
           :current-page="$page.records.pageInfo.currentPage"
           :total-pages="$page.records.pageInfo.totalPages" />
       </div>
@@ -55,7 +55,7 @@ export default {
 
 <page-query>
   query ($page: Int) {
-    records: allArticle(sortBy:"createdAt", order:DESC, perPage: 9, page: $page) @paginate {
+    records: allNews(sortBy:"createdAt", order:DESC, perPage: 9, page: $page) @paginate {
       totalCount
       pageInfo {
         totalPages
