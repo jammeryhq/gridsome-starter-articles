@@ -36,10 +36,31 @@
   </Layout>
 </template>
 
+<page-query>
+  query ($page: Int) {
+    records: allArticle(sortBy:"createdAt", order:DESC, perPage: 9, page: $page) @paginate {
+      totalCount
+      pageInfo {
+        totalPages
+        currentPage
+      }
+      edges {
+        node {
+          title
+          path
+          excerpt
+          createdAt(format:"Do MMMM YYYY")
+          timeToRead
+        }
+      }
+    }
+  }
+</page-query>
+
 <script>
-import PageHeader from '~/components/PageHeader';
-import RecordCard from '~/components/RecordCard.vue';
-import Pagination from '~/components/Pagination.vue';
+import PageHeader from '~/components/PageHeader'
+import RecordCard from '~/components/RecordCard'
+import Pagination from '~/components/Pagination'
 
 export default {
   metaInfo: {
@@ -52,24 +73,3 @@ export default {
   }
 };
 </script>
-
-<page-query>
-  query ($page: Int) {
-    records: allArticle(sortBy:"createdAt", order:DESC, perPage: 9, page: $page) @paginate {
-      totalCount
-      pageInfo {
-        totalPages
-        currentPage
-      }
-      edges {
-        node {
-          title,
-          path,
-          excerpt,
-          createdAt(format:"Do MMMM YYYY"),
-          timeToRead
-        }
-      }
-    }
-  }
-</page-query>

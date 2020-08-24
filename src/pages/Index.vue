@@ -26,14 +26,14 @@
 </template>
 
 <script>
-import PageHeader from '~/components/PageHeader';
-import SectionLatestArticles from '~/components/sections/LatestArticles';
-import SectionLatestNews from '~/components/sections/LatestNews';
-import SectionContribute from '~/components/sections/Contribute';
+import PageHeader from '~/components/PageHeader'
+import SectionLatestArticles from '~/components/sections/LatestArticles'
+import SectionLatestNews from '~/components/sections/LatestNews'
+import SectionContribute from '~/components/sections/Contribute'
 
 export default {
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'Learn something new'
   },
   components: {
     PageHeader,

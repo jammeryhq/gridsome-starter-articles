@@ -68,7 +68,3 @@ query {
   }
 }
 </static-query>
-
-<script>
-export default {};
-</script>

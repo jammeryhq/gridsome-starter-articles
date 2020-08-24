@@ -44,8 +44,8 @@
 </page-query>
 
 <script>
-import PageHeader from "~/components/PageHeader.vue";
-import PageSidebar from '~/components/PageSidebar';
+import PageHeader from '~/components/PageHeader'
+import PageSidebar from '~/components/PageSidebar'
 
 export default {
   components: {
@@ -53,10 +53,10 @@ export default {
     PageSidebar
   },
 
-  metaInfo() {
+  metaInfo () {
     return {
-      title: this.$page.entry.title,
+      title: this.$page.entry.title
     };
-  },
+  }
 };
 </script>

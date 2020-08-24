@@ -20,8 +20,24 @@
   </section>
 </template>
 
+<static-query>
+  query {
+    records: allArticle(limit:6, sortBy:"createdAt") {
+      edges {
+        node {
+          title
+          path
+          excerpt
+          createdAt(format:"Do MMMM YYYY")
+          timeToRead
+        }
+      }
+    }
+  }
+</static-query>
+
 <script>
-import RecordCard from '~/components/RecordCard.vue';
+import RecordCard from '~/components/RecordCard'
 
 export default {
   components: {
@@ -29,19 +45,3 @@ export default {
   }
 };
 </script>
-
-<static-query>
-  query {
-    records: allArticle(limit:6, sortBy:"createdAt") {
-      edges {
-        node {
-          title,
-          path,
-          excerpt,
-          createdAt(format:"Do MMMM YYYY"),
-          timeToRead
-        }
-      }
-    }
-  }
-</static-query>

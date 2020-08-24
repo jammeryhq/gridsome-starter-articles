@@ -57,8 +57,8 @@
 </page-query>
 
 <script>
-import PageHeader from '~/components/PageHeader.vue';
-import PageSidebar from '~/components/PageSidebar';
+import PageHeader from '~/components/PageHeader'
+import PageSidebar from '~/components/PageSidebar'
 
 export default {
   components: {

@@ -8,7 +8,7 @@
         </h1>
         <p
           class="leading-relaxed mb-12 text-gray-800">
-          {{ record.excerpt}}
+          {{ record.excerpt }}
         </p>
         <div class="flex items-center flex-wrap absolute bottom-0 -ml-6 p-6 w-full">
           <div class="w-2/3 text-left">
@@ -54,7 +54,7 @@
 <script>
 export default {
   props: {
-      record: {}
+    record: {}
   }
 };
 </script>

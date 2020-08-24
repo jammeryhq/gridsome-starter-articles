@@ -36,23 +36,6 @@
   </Layout>
 </template>
 
-<script>
-import PageHeader from '~/components/PageHeader';
-import RecordCard from '~/components/RecordCard.vue';
-import Pagination from '~/components/Pagination.vue';
-
-export default {
-  metaInfo: {
-    title: 'Browse Articles'
-  },
-  components: {
-    PageHeader,
-    Pagination,
-    RecordCard
-  }
-};
-</script>
-
 <page-query>
   query ($page: Int) {
     records: allNews(sortBy:"createdAt", order:DESC, perPage: 9, page: $page) @paginate {
@@ -63,13 +46,30 @@ export default {
       }
       edges {
         node {
-          title,
-          path,
-          excerpt,
-          createdAt(format:"Do MMMM YYYY"),
+          title
+          path
+          excerpt
+          createdAt(format:"Do MMMM YYYY")
           timeToRead
         }
       }
     }
   }
 </page-query>
+
+<script>
+import PageHeader from '~/components/PageHeader'
+import RecordCard from '~/components/RecordCard'
+import Pagination from '~/components/Pagination'
+
+export default {
+  metaInfo: {
+    title: 'Browse News'
+  },
+  components: {
+    PageHeader,
+    Pagination,
+    RecordCard
+  }
+};
+</script>
