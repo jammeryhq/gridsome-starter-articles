@@ -3,10 +3,12 @@
     <div
       class="h-full border-2 border-gray-200 rounded-lg overflow-hidden relative hover:bg-shark-50 hover:bg-opacity-60">
       <div class="p-6">
-        <h1 class="title-font text-2xl font-medium text-gray-900 mb-3">
+        <h1 class="title-font text-2xl font-medium text-gray-900 mb-3"
+        :class="{'mb-12' : !record.excerpt}">
           {{ record.title }}
         </h1>
         <div
+          v-if="record.excerpt"
           class="leading-relaxed mb-12 text-gray-800"
           v-html="record.excerpt" />
         <div class="flex items-center flex-wrap absolute bottom-0 -ml-6 p-6 w-full">

@@ -1,8 +1,8 @@
 <template>
   <Layout>
-    <PageHeader>
-      <template v-slot:content>
-        <div class="bg-white shadow p-4 flex m-4">
+    <div class="container px-5 py-12 mx-auto">
+      <section>
+        <div class="bg-white shadow p-4 flex mb-12 border">
           <span class="w-auto flex justify-end items-center text-gray-500 p-2">
             <svg
               fill="none"
@@ -22,10 +22,8 @@
             autocomplete="off"
             placeholder="Search topic or keywords...">
         </div>
-      </template>
-    </PageHeader>
+      </section>
 
-    <div class="container px-5 py-12 mx-auto">
       <section>
         <div
           v-for="(groupElements, groupName) in searchResults"

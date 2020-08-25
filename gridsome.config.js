@@ -97,12 +97,12 @@ module.exports = {
           {
             typeName: 'Article',
             indexName: 'Article',
-            fields: ['title', 'excerpt', 'content', 'path', 'timeToRead']
+            fields: ['title', 'content', 'path']
           },
           {
             typeName: 'News',
             indexName: 'News',
-            fields: ['title', 'excerpt', 'content', 'path', 'timeToRead']
+            fields: ['title', 'content', 'path']
           }
         ]
       }
