@@ -2,7 +2,7 @@
   <div class="layout">
     <HeaderPartial />
     <div class="min-h-screen">
-    <slot />
+      <slot />
     </div>
     <FooterPartial />
   </div>

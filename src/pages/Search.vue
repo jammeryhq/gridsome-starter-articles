@@ -45,18 +45,20 @@
           v-if="searchTerm==='' || searchTerm.length<3"
           class="flex flex-col text-center h-64 text-gray-200 ">
           <div>
-          <svg
-            viewBox="0 0 20 20"
-            fill="currentColor"
-            class="search-circle w-64 h-64 mx-auto">
+            <svg
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              class="search-circle w-64 h-64 mx-auto">
               <path d="M9 9a2 2 0 114 0 2 2 0 01-4 0z" />
               <path
-              fill-rule="evenodd"
-              d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a4 4 0 00-3.446 6.032l-2.261 2.26a1 1 0 101.414 1.415l2.261-2.261A4 4 0 1011 5z"
-              clip-rule="evenodd" />
-          </svg>
+                fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a4 4 0 00-3.446 6.032l-2.261 2.26a1 1 0 101.414 1.415l2.261-2.261A4 4 0 1011 5z"
+                clip-rule="evenodd" />
+            </svg>
           </div>
-          <div class="text-gray-400">Type at least 3 characters to start the search...</div>
+          <div class="text-gray-400">
+            Type at least 3 characters to start the search...
+          </div>
         </div>
       </section>
     </div>
