@@ -72,6 +72,11 @@ module.exports = {
         100: 100,
         1000: 1000,
         auto: 'auto'
+      },
+      minHeight: {
+        '25vh': '25vh',
+        '50vh': '50vh',
+        '75vh': '75vh'
       }
     },
     aspectRatio: {

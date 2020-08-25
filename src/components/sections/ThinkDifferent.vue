@@ -2,7 +2,7 @@
   <section class="bg-shark-50 body-font">
     <div class="w-full mx-auto">
       <div class="flex flex-wrap items-center mx-auto text-center md:flex-row-reverse">
-        <div class="w-full md:w-1/2 text-2xl relative md:min-h-screen flex justify-center py-12 md:py-0">
+        <div class="w-full md:w-1/2 text-2xl relative md:min-h-50vh flex justify-center pt-12 md:pt-0">
           <g-image
             class="md:object-cover md:absolute md:top-0 md:left-0 md:w-full md:h-full w-64 h-64"
             src="~/assets/images/brainstorming.svg"
@@ -11,7 +11,7 @@
         </div>
 
         <div
-          class="text-xl font-medium title-font w-full md:w-1/2">
+          class="text-xl font-medium title-font w-full md:w-1/2 py-12">
           <h3 class="text-4xl lg:text-6xl text-center">
             Th!nk different
           </h3>
