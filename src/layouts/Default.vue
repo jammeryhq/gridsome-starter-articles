@@ -1,5 +1,6 @@
 <template>
   <div class="layout">
+    <ResponsiveNavbarPartial />
     <HeaderPartial />
     <div class="min-h-screen">
       <slot />
@@ -19,11 +20,13 @@ query {
 <script>
 import HeaderPartial from '~/layouts/partials/Header'
 import FooterPartial from '~/layouts/partials/Footer'
+import ResponsiveNavbarPartial from '~/layouts/partials/ResponsiveSidebar'
 
 export default {
   components: {
     HeaderPartial,
-    FooterPartial
+    FooterPartial,
+    ResponsiveNavbarPartial
   }
 }
 </script>

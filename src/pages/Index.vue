@@ -19,9 +19,15 @@
 
     <SectionContribute />
 
+    <SectionThinkDifferent />
+    
     <div class="container text-center mx-auto">
       <SectionLatestNews />
     </div>
+
+    
+
+    <SectionOpenSource />
   </Layout>
 </template>
 
@@ -30,6 +36,8 @@ import PageHeader from '~/components/PageHeader'
 import SectionLatestArticles from '~/components/sections/LatestArticles'
 import SectionLatestNews from '~/components/sections/LatestNews'
 import SectionContribute from '~/components/sections/Contribute'
+import SectionThinkDifferent from '~/components/sections/ThinkDifferent'
+import SectionOpenSource from '~/components/sections/OpenSource'
 
 export default {
   metaInfo: {
@@ -39,7 +47,9 @@ export default {
     PageHeader,
     SectionLatestArticles,
     SectionLatestNews,
-    SectionContribute
+    SectionContribute,
+    SectionThinkDifferent,
+    SectionOpenSource
   }
 };
 </script>
