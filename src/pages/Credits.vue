@@ -64,7 +64,6 @@
 <script>
 import PageHeader from '~/components/PageHeader'
 import RecordCard from '~/components/RecordCard'
-import Pagination from '~/components/Pagination'
 
 export default {
   metaInfo: {
@@ -72,7 +71,6 @@ export default {
   },
   components: {
     PageHeader,
-    Pagination,
     RecordCard
   }
 };

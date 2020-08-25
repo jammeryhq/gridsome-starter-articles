@@ -38,67 +38,75 @@ module.exports = {
       precomposed: true
     }
   },
-  plugins: [{
-    use: 'gridsome-plugin-tailwindcss',
-    options: {
-      tailwindConfig: './tailwind.config.js'
-    }
-  },
-  {
-    use: '@gridsome/source-filesystem',
-    options: {
-      typeName: 'CustomPage',
-      baseDir: './content/pages',
-      path: '*.md'
-    }
-  },
-  {
-    use: '@gridsome/source-filesystem',
-    options: {
-      typeName: 'Article',
-      baseDir: './content/articles',
-      path: '**/*.md',
-      refs: {
-        tags: {
-          typeName: 'Tag',
-          create: true
+  plugins: [
+    {
+      use: 'gridsome-plugin-tailwindcss',
+      options: {
+        tailwindConfig: './tailwind.config.js'
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'CustomPage',
+        baseDir: './content/pages',
+        path: '*.md'
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Article',
+        baseDir: './content/articles',
+        path: '**/*.md',
+        refs: {
+          tags: {
+            typeName: 'Tag',
+            create: true
+          }
         }
       }
-    }
-  },
-  {
-    use: '@gridsome/source-filesystem',
-    options: {
-      typeName: 'News',
-      baseDir: './content/news',
-      path: '*.md',
-      refs: {
-        tags: {
-          typeName: 'Tag',
-          create: true
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'News',
+        baseDir: './content/news',
+        path: '*.md',
+        refs: {
+          tags: {
+            typeName: 'Tag',
+            create: true
+          }
         }
       }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Credit',
+        baseDir: './content/credits',
+        path: '*.md'
+      }
+    },
+    {
+      use: 'gridsome-plugin-flexsearch',
+      options: {
+        searchFields: ['title', 'excerpt', 'content'],
+        collections: [
+          {
+            typeName: 'Article',
+            indexName: 'Article',
+            fields: ['title', 'excerpt', 'content', 'path', 'timeToRead']
+          },
+          {
+            typeName: 'News',
+            indexName: 'News',
+            fields: ['title', 'excerpt', 'content', 'path', 'timeToRead']
+          }
+        ]
+      }
     }
-  },
-  {
-    use: '@gridsome/source-filesystem',
-    options: {
-      typeName: 'Credit',
-      baseDir: './content/credits',
-      path: '*.md'
-    }
-  }
-    // {
-    //   use: 'gridsome-plugin-flexsearch',
-    //   options: {
-    //     searchFields: ['title'],
-    //     collections: [{
-    //       typeName: 'SomeType',
-    //       indexName: 'SomeType',
-    //       fields: ['title', 'handle', 'description']
-    //     }]
-    //   }
-    // }
   ],
   templates: {
     Article: [{
