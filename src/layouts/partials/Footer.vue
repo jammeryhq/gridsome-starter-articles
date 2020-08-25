@@ -30,7 +30,7 @@
             Sample Page 2
           </g-link>
 
-          <g-link to="/pages/credits">
+          <g-link to="/credits">
             Credits
           </g-link>
         </div>

@@ -79,6 +79,14 @@ module.exports = {
         }
       }
     }
+  },
+  {
+    use: '@gridsome/source-filesystem',
+    options: {
+      typeName: 'Credit',
+      baseDir: './content/credits',
+      path: '*.md'
+    }
   }
     // {
     //   use: 'gridsome-plugin-flexsearch',

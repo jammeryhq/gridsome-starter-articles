@@ -2,7 +2,7 @@
   <Layout>
     <PageHeader>
       <template v-slot:image>
-        <g-image src="~/assets/images/marvin-meyer-SYTO3xs06fU-unsplash.jpg" />
+        <g-image src="~/assets/images/janko-ferlic-specialdaddy-sfL_QOnmy00-unsplash.jpg" />
       </template>
       <template v-slot:content>
         <p class="text-4xl md:text-6xl">

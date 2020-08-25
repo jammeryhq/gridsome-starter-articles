@@ -6,30 +6,33 @@
         <h1 class="title-font text-2xl font-medium text-gray-900 mb-3">
           {{ record.title }}
         </h1>
-        <p
-          class="leading-relaxed mb-12 text-gray-800">
-          {{ record.excerpt }}
-        </p>
+        <div
+          class="leading-relaxed mb-12 text-gray-800"
+          v-html="record.excerpt" />
         <div class="flex items-center flex-wrap absolute bottom-0 -ml-6 p-6 w-full">
           <div class="w-2/3 text-left">
-            <g-link
-              :to="record.path"
-              class="text-smalt-blue-500 hover:text-black inline-flex items-center">
-              Continue reading
-              <svg
-                class="w-4 h-4 ml-2"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round">
-                <path d="M5 12h14" />
-                <path d="M12 5l7 7-7 7" />
-              </svg>
-            </g-link>
+            <slot name="link">
+              <g-link
+                :to="record.path"
+                class="text-smalt-blue-500 hover:text-black inline-flex items-center">
+                Continue reading
+                <svg
+                  class="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M5 12h14" />
+                  <path d="M12 5l7 7-7 7" />
+                </svg>
+              </g-link>
+            </slot>
           </div>
-          <div class="w-1/3 text-right pt-2">
+          <div
+            v-if="record.timeToRead"
+            class="w-1/3 text-right pt-2">
             <span class="text-gray-600 inline-flex items-center leading-none text-sm">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
