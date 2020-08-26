@@ -97,9 +97,11 @@ export default {
   metaInfo: {
     title: 'Search'
   },
-  data: () => ({
-    searchTerm: ''
-  }),
+  data () {
+    return {
+      searchTerm: this.$route.query.q || ''
+    }
+  },
   computed: {
     searchResults () {
       const searchTerm = this.searchTerm
@@ -107,6 +109,14 @@ export default {
       const results = this.$search.search({ query: searchTerm, limit: 5 })
 
       return groupBy(results, 'index')
+    }
+  },
+  watch: {
+    searchTerm (newVal) {
+      this.$router.push({ query: { ...this.$route.query, q: newVal } });
+    },
+    '$route.query.q': function (val) {
+      this.searchTerm = val;
     }
   }
 }
