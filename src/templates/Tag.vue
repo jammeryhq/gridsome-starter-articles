@@ -62,7 +62,6 @@ query ($id: ID!, $page:Int) {
             id
             title
             path
-            slug
             excerpt
             createdAt(format:"Do MMMM YYYY")
             timeToRead
