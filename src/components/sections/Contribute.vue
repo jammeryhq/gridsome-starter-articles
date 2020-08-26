@@ -8,7 +8,7 @@
         </p>
         <g-link
           to="/pages/contribute"
-          class=" self-center md:self-auto flex-shrink-0 text-white bg-smalt-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-smalt-blue-600 rounded text-lg mt-10 md:mt-0 transition-colors duration-100">
+          class="self-center md:self-auto flex-shrink-0 text-white bg-smalt-blue-500 py-2 px-8 focus:outline-none hover:bg-smalt-blue-600 rounded text-lg mt-10 md:mt-0 transition-colors duration-100">
           Contribute now
         </g-link>
       </div>
