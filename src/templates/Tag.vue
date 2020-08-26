@@ -10,7 +10,7 @@
         </p>
         <p
           class="text-lg md:text-2xl">
-          We have found {{ $page.records.totalCount }} records for this tag
+          We have found {{ $page.records.belongsTo.totalCount }} records for this tag
         </p>
       </template>
     </PageHeader>
@@ -19,18 +19,18 @@
       <section>
         <div class="flex flex-wrap -m-4">
           <RecordCard
-            v-for="edge in $page.records.edges"
+            v-for="edge in $page.records.belongsTo.edges"
             :key="edge.node.id"
             :record="edge.node" />
         </div>
       </section>
       <div
-        v-if="$page.records.pageInfo.totalPages > 1"
+        v-if="$page.records.belongsTo.pageInfo.totalPages > 1"
         class="mt-12 flex justify-center">
         <Pagination
           :base-url="baseUrl"
-          :current-page="$page.records.pageInfo.currentPage"
-          :total-pages="$page.records.pageInfo.totalPages" />
+          :current-page="$page.records.belongsTo.pageInfo.currentPage"
+          :total-pages="$page.records.belongsTo.pageInfo.totalPages" />
       </div>
     </div>
   </Layout>
