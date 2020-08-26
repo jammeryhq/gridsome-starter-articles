@@ -75,10 +75,14 @@ query ($id: ID!, $page:Int) {
 
 <script>
 import PageHeader from '~/components/PageHeader'
+import RecordCard from '~/components/RecordCard'
+import Pagination from '~/components/Pagination'
 
 export default {
   components: {
-    PageHeader
+    PageHeader,
+    RecordCard,
+    Pagination
   },
 
   metaInfo () {
