@@ -11,7 +11,7 @@
         </div>
 
         <div
-          class="text-xl font-medium title-font w-full md:w-1/2 py-12">
+          class="text-xl font-medium title-font w-full md:w-1/2 py-12 md:py-0">
           <h3 class="text-4xl lg:text-6xl text-center">
             Th!nk different
           </h3>
