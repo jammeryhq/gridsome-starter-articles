@@ -116,6 +116,9 @@ export default {
       immediate: true
     }
   },
+  mounted () {
+    this.results()
+  },
   methods: {
     results () {
       this.searchResults = this.search(this.searchTerm)
