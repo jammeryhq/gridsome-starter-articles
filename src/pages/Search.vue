@@ -120,6 +120,7 @@ export default {
     console.log('mounted start');
     this.results()
     console.log('mounted after results', this.searchResults);
+    console.log('mounted search', this.search(this.searchTerm));
   },
   methods: {
     results () {
@@ -129,7 +130,6 @@ export default {
     search (searchTerm) {
       if (searchTerm.length < 3) return []
       const results = this.$search.search({ query: searchTerm, limit: 5 })
-
       return groupBy(results, 'index')
     }
   }
