@@ -131,6 +131,7 @@ export default {
       console.log('search - searchterm: ', searchTerm);
       if (searchTerm.length < 3) return []
       const results = this.$search.search({ query: searchTerm, limit: 5 })
+      console.log('search - results: ', results);
       return groupBy(results, 'index')
     }
   }
