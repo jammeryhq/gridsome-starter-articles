@@ -99,39 +99,17 @@ export default {
   },
   data () {
     return {
-      searchTerm: this.$route.query.q || '',
+      searchTerm: '',
       searchResults: {}
     }
   },
-  watch: {
-    searchTerm (newVal) {
-      this.$router.push({ query: { ...this.$route.query, q: newVal } });
-    },
-    '$route.query.q': {
-      handler: function (val) {
-        console.log('route watch', val);
-        this.searchTerm = val || '';
-        this.results()
-      },
-      immediate: true
-    }
-  },
-  mounted () {
-    console.log('mounted start - searchTerm', this.searchTerm);
-    this.searchResults = this.search(this.searchTerm)
-    console.log('mounted after results', this.searchResults);
-    console.log('mounted search', this.search(this.searchTerm));
-  },
   methods: {
     results () {
-      console.log('results search term', this.searchTerm)
       this.searchResults = this.search(this.searchTerm)
     },
     search (searchTerm) {
-      console.log('search - searchterm: ', searchTerm);
       if (searchTerm.length < 3) return []
       const results = this.$search.search({ query: searchTerm, limit: 5 })
-      console.log('search - results: ', results);
       return groupBy(results, 'index')
     }
   }
