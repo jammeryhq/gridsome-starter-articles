@@ -28,7 +28,7 @@
     <div class="container px-5 py-12 mx-auto">
       <section>
         <div
-          v-for="(groupElements, groupName) in results"
+          v-for="(groupElements, groupName) in searchResults"
           :key="groupName"
           class="pb-12 last:pb-0">
           <p class="text-4xl">
@@ -99,12 +99,8 @@ export default {
   },
   data () {
     return {
-      searchTerm: this.$route.query.q || ''
-    }
-  },
-  computed: {
-    results () {
-      return this.search(this.searchTerm)
+      searchTerm: this.$route.query.q || '',
+      searchResults: {}
     }
   },
   watch: {
@@ -113,13 +109,17 @@ export default {
     },
     '$route.query.q': {
       handler: function (val) {
-        console.log('route watch');
+        console.log('route watch', val);
         this.searchTerm = val || '';
+        this.results()
       },
       immediate: true
     }
   },
   methods: {
+    results () {
+      this.searchResults = this.search(this.searchTerm)
+    },
     search (searchTerm) {
       if (searchTerm.length < 3) return []
       const results = this.$search.search({ query: searchTerm, limit: 5 })
