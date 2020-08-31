@@ -29,11 +29,11 @@ module.exports = {
   },
   icon: {
     favicon: {
-      src: './src/resources/images/favicon.png',
+      src: './src/favicon.png',
       sizes: [16, 32, 96]
     },
     touchicon: {
-      src: './src/resources/images/favicon.png',
+      src: './src/favicon.png',
       sizes: [76, 152, 120, 167],
       precomposed: true
     }
