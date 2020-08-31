@@ -117,10 +117,13 @@ export default {
     }
   },
   mounted () {
+    console.log('mounted start');
     this.results()
+    console.log('mounted after results', this.searchResults);
   },
   methods: {
     results () {
+      console.log('results search term', this.searchTerm)
       this.searchResults = this.search(this.searchTerm)
     },
     search (searchTerm) {
