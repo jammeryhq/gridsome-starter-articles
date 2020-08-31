@@ -111,8 +111,12 @@ export default {
     searchTerm (newVal) {
       this.$router.push({ query: { ...this.$route.query, q: newVal } });
     },
-    '$route.query.q': function (val) {
-      this.searchTerm = val;
+    '$route.query.q': {
+      handler: function (val) {
+        console.log('route watch');
+        this.searchTerm = val || '';
+      },
+      immediate: true
     }
   },
   methods: {
