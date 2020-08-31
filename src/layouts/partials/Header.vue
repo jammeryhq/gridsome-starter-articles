@@ -46,7 +46,13 @@
           Contribute
         </g-link>
 
-        <a class="block md:hidden mr-5">
+        <a
+          href="#"
+          type="button"
+          aria-label="Open Navigation"
+          title="Open Navigation"
+          class="block md:hidden mr-5 focus:outline-none"
+          @click.prevent="showResponsiveMenu()">
           <svg
             fill="none"
             viewBox="0 0 24 24"
@@ -78,6 +84,15 @@
   </header>
 </template>
 
+<script>
+export default {
+  methods: {
+    showResponsiveMenu () {
+      this.$emit('openResponsiveMenu');
+    }
+  }
+};
+</script>
 <static-query>
 query {
   metadata {
