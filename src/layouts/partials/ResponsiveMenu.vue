@@ -2,7 +2,7 @@
   <div
     v-if="showResponsiveMenu"
     class="fixed top-0 left-0 bg-shark-600 opacity-90 w-full h-screen z-1000 overflow-hidden pt-20">
-    <div class="absolute top-0 right-0 text-right text-right mr-12 mt-12 text-white">
+    <div class="absolute top-0 right-0 text-right text-right mr-6 mt-6 text-white">
       <a
         href="#"
         type="button"
@@ -18,7 +18,7 @@
       </a>
     </div>
 
-    <div class="container mx-auto text-4xl text-white">
+    <div class="container mx-auto text-2xl text-white">
       <ul class="text-center list-none justify-center">
         <li>
           <g-link
