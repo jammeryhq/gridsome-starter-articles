@@ -9,7 +9,7 @@
         </h1>
         <div
           v-if="record.excerpt"
-          class="leading-relaxed mb-12 text-gray-800"
+          class="leading-relaxed mb-12 text-gray-800 text-left"
           v-html="record.excerpt" />
         <div class="flex items-center flex-wrap absolute bottom-0 -ml-6 p-6 w-full">
           <div class="w-2/3 text-left">
