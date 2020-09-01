@@ -85,6 +85,14 @@ module.exports = {
       '16/9': [16, 9],
       '4/3': [4, 3],
       '21/9': [21, 9]
+    },
+    container: {
+      screens: {
+        sm: '100%',
+        md: '100%',
+        lg: '1024px',
+        xl: '1280px'
+      }
     }
   },
   variants: {
