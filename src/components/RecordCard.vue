@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4 sm:w-1/2 lg:w-1/3">
+  <div class="p-4 w-full sm:w-1/2 lg:w-1/3">
     <div
       class="h-full border-2 border-gray-200 rounded-lg overflow-hidden relative hover:bg-shark-50 hover:bg-opacity-60">
       <div class="p-6">

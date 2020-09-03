@@ -90,6 +90,24 @@ module.exports = {
       }
     },
     {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Resource',
+        baseDir: './content/resources',
+        path: '*.md',
+        refs: {
+          tags: {
+            typeName: 'ResourceTag',
+            create: true
+          },
+          type: {
+            typeName: 'ResourceType',
+            create: true
+          }
+        }
+      }
+    },
+    {
       use: 'gridsome-plugin-flexsearch',
       options: {
         searchFields: ['title', 'excerpt', 'content'],
@@ -112,29 +130,38 @@ module.exports = {
     Article: [{
       path: '/articles/:title'
     }],
-    Tag: [{
-      path: '/tag/:title',
-      component: './src/templates/Tag.vue'
-    },
-    {
-      name: 'resourcesByTag',
-      path: '/resources/filter/tags/:title',
-      component: './src/templates/ResourceTagFilter.vue'
-    }
+    Tag: [
+      {
+        path: '/tag/:title',
+        component: './src/templates/Tag.vue'
+      }
     ],
-    News: [{
-      path: '/news/:title',
-      component: './src/templates/News.vue'
-    }],
-    CustomPage: [{
-      path: '/pages/:title',
-      component: './src/templates/CustomPage.vue'
-    }]
-    // ResourceType: [{
-    //   name: 'resourcesByType',
-    //   path: '/resources/filter/:type/:title',
-    //   component: './src/templates/ResourceTypeFilter.vue'
-    // }]
+    News: [
+      {
+        path: '/news/:title',
+        component: './src/templates/News.vue'
+      }
+    ],
+    CustomPage: [
+      {
+        path: '/pages/:title',
+        component: './src/templates/CustomPage.vue'
+      }
+    ],
+    ResourceType: [
+      {
+        name: 'resourcesByType',
+        path: '/resources/filter/type/:title',
+        component: './src/templates/ResourceTypeFilter.vue'
+      }
+    ],
+    ResourceTag: [
+      {
+        name: 'resourcesByType',
+        path: '/resources/filter/tag/:title',
+        component: './src/templates/ResourceTagFilter.vue'
+      }
+    ]
   },
   transformers: {
     remark: {

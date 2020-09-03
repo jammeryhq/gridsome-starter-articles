@@ -11028,6 +11028,11 @@ uuid@^8.2.0:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.0.tgz#ab738085ca22dc9a8c92725e459b1d507df5d6ea"
   integrity sha512-fX6Z5o4m6XsXBdli9g7DtWgAx+osMsRRZFKma1mIUsLCz6vRvv+pz5VNbyu9UEDzpMWulZfvpgb/cmDXVulYFQ==
 
+v-click-outside@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/v-click-outside/-/v-click-outside-3.1.0.tgz#941be55f54982291b2e1beaa8447e5830b7afe29"
+  integrity sha512-WZBeCxHjmL67+dpw4GTNwNWoCUsyjvP4bO0xFLCEPIYqWhigQso28NKasfvg4vDYn7fUvMigFmKf+mV42lbJ2Q==
+
 v8-compile-cache@^2.0.3:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/v8-compile-cache/-/v8-compile-cache-2.1.1.tgz#54bc3cdd43317bca91e35dcaf305b1a7237de745"
