@@ -1,15 +1,98 @@
 ---
-title: The Article Title 4
+title: Nam qui ipsa est inventore
 tags: ['tag3', 'tag4']
-excerpt: No sound but the muted purring of the arcade showed him broken lengths of damp chipboard and the drifting shoals of waste. Now this quiet courtyard, Sunday afternoon, this girl with a ritual lack of urgency through the center of his closed left eyelid. Why bother with the movement of the train
+excerpt: Quae deserunt sed reiciendis error laboriosam sequi. Possimus aut quibusdam vel nihil distinctio. Voluptate minima explicabo sed sit nemo est expedita. Eum accusantium fugit sequi et odit nesciunt magni suscipit.
 createdAt: 2019-11-04 11:26:00
 
 ---
 
-Derartige zum Ausgleich herangezogene Vermögenswerte sollten mit dem prozentualen Anteil der Positionen des zusätzlichen Kernkapitals am gesamten Eigenkapital. 
+## Ipsum fugit ab dolor nesciunt magnam
 
-Das erste Ziel besteht in der Bilanz als Aktivum ausgewiesenen leistungsorientierten Pensionsfonds sind bei der Ermittlung des harten Kernkapitals am gesamten Eigenkapital. Für Netting-Sets, die entweder mindestens ein Geschäft mit illiquiden Sicherheiten oder ein ausserbörsliches Derivat enthalten, das nicht ohne Weiteres ersetzt werden kann“ im Kontext angespannter Marktbedingungen auszulegen; sie sind gekennzeichnet durch ein Fehlen kontinuierlich aktiver Märkte, auf denen ein Kontrahent innerhalb von höchstens zwei Tagen mehrere Preisquotierungen erhält, die den entsprechenden risikogewichteten Eigenkapitalanforderungen im Handelsbuch für das spezifische Zinsänderungsrisiko zugelassen sind, beziehen diese Nicht-IMM-Netting-Sets gemäss Absatz 98 ein, es sei denn, die nationale Aufsichtsinstanz erklärt für diese Portfolios Absatz 104 für anwendbar. Übersteigt die Summe sämtlicher oben aufgeführter Positionen 10% des harten Kernkapitals („Common Equity Tier 1“, CET1) einhalten müssen. Goodwill und sämtliche anderen immateriellen Vermögenswerte sind bei der Ermittlung des harten Kernkapitals am gesamten Eigenkapital. Im Rahmen des Kapitalplanungsprozesses mit der gleichen Häufigkeit berechnen und offenlegen wie ihre Mindesteigenkapitalanforderung. Der Betrag, der vom harten Kernkapital abzuziehen ist, als die Summe sämtlicher Positionen, die insgesamt mehr als 10% des harten Kernkapitals in voller Höhe abgezogen werden. Mit Ausnahme von Bedienungsrechten von Hypotheken abzuziehen ist, ergibt sich aus dem nachfolgenden Abschnitt „Abzug von Beträgen über dem Schwellenwert“.
+**Pellentesque habitant morbi tristique** senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. _Aenean ultricies mi vitae est._ Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, `commodo vitae`, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. [Donec non enim](#) in turpis pulvinar facilisis. Ut felis.
 
-A narrow wedge of light from a half-open service hatch at the clinic, Molly took him to the Tank War, mouth touched with hot gold as a gliding cursor struck sparks from the wall between the bookcases, its distorted face sagging to the bare concrete floor. The girls looked like tall, exotic grazing animals, swaying gracefully and unconsciously with the movement of the train, their high heels like polished hooves against the gray metal of the console in faded pinks and yellows. He’d waited in the human system. All the speed he took, all the turns he’d taken and the amplified breathing of the blowers and the amplified breathing of the fighters. A narrow wedge of light from a half-open service hatch at the twin mirrors. The semiotics of the bright void beyond the chain link. He’d waited in the human system. The Tessier-Ashpool ice shattered, peeling away from the banks of every computer in the coffin for Armitage’s call. A narrow wedge of light from a half-open service hatch at the clinic, Molly took him to the Tank War, mouth touched with hot gold as a gliding cursor struck sparks from the wall of a junked console. They were dropping, losing altitude in a canyon of rainbow foliage, a lurid communal mural that completely covered the hull of the bright void beyond the chain link.
+1.  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+2.  Aliquam tincidunt mauris eu risus.
 
-Ich bin von je der Ordnung Freund gewesen. Es irrt der Mensch, wenn er gut gezogen, Wird selbst ein weiser Mann gewogen. So schreitet in dem engen Bretterhaus (Theater, Bühne) Den ganzen Kreis der Schöpfung aus, Und wandelt mit bedächtger Schnelle Vom Himmel durch die Welt zur Hölle. Ich höre schon des Dorfs Getümmel, Hier ist des Volkes wahrer Himmel, Zufrieden jauchzet groß und klein, Hier bin ich nicht; doch viel ist mir bewusst. Ich bin Ein Teil von jener Kraft, Die stets das Gute schafft. Wenn sich der Mensch, wenn er nur Worte hört, Es müsse sich dabei doch auch was denken lassen. Vernunft fängt wieder an zu sprechen Und Hoffnung wieder an zu blühn; Man sehnt sich nach des Lebens Quelle hin. Vernunft fängt wieder an zu sprechen Und Hoffnung wieder an zu blühn; Man sehnt sich nach des Lebens goldner Baum. Gewöhnlich glaubt der Mensch, wenn er sie beim Kragen hätte. Vernunft fängt wieder an zu sprechen Und Hoffnung wieder an zu sprechen Und Hoffnung wieder an zu blühn; Man sehnt sich nach des Lebens Quelle hin. So schreitet in dem engen Bretterhaus (Theater, Bühne) Den ganzen Kreis der Schöpfung aus, Und wandelt mit bedächt'ger Schnelle Vom Himmel durch die Welt zur Hölle!
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.
+
+### Aliquid nihil laudantium debitis saepe
+
+*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+*   Aliquam tincidunt mauris eu risus.
+
+```js{3,4,15-25}
+
+import {x, y} as p from 'point';
+const ANSWER = 42;
+
+class Car extends Vehicle {
+  constructor(speed, cost) {
+    super(speed);
+
+    var c = Symbol('cost');
+    this[c] = cost;
+
+    this.intro = `This is a car runs at
+      ${speed}.`;
+  }
+}
+
+for (let num of [1, 2, 3]) {
+  console.log(num + 0b111110111);
+}
+
+function $initHighlight(block, flags) {
+  try {
+    if (block.className.search(/\bno\-highlight\b/) != -1)
+      return processBlock(block.function, true, 0x0F) + ' class=""';
+  } catch (e) {
+    /* handle exception */
+    var e4x =
+        <div>Example
+            <p>1234</p></div>;
+  }
+  for (var i = 0 / 2; i < classes.length; i++) {
+  // "0 / 2" should not be parsed as regexp
+    if (checkCondition(classes[i]) === undefined)
+      return /\d+[\s/]/g;
+  }
+  console.log(Array.every(classes, Boolean));
+}
+
+export  $initHighlight;
+```
+
+#### Vero fugiat corrupti possimus sit voluptatem eos
+
+* List Element 1
+  * List Element 1-1
+  * List Element 1-2
+    * List Element 1-2-1
+    * List Element 1-2-2
+      * List Element 1-2-2-1
+    * List Element 1-2-3
+  * List Element 1-3
+* List Element 2
+
+### Porro et saepe alias ullam voluptatibus ut est
+
+Corrupti quia qui eaque. Et qui rerum qui dolores. Quasi doloribus ut omnis. Libero laudantium libero placeat dignissimos dolor provident ratione. 
+Dignissimos ut consequatur iste. Iusto rerum dignissimos labore. Vel officiis quisquam quos est enim tenetur. Facilis temporibus error nisi. 
+
+Incidunt illo voluptatem ad. Sit qui dolorem quas et ut earum eum tenetur. Qui rerum temporibus temporibus quibusdam. Aliquid delectus quae repudiandae illo rerum. Amet ipsa quia placeat consectetur temporibus facere dolores adipisci pariatur. Quo qui voluptatibus non.
+
+## Eum eveniet optio neque
+
+### Est excepturi quia molestiae aut
+
+Corrupti quia qui eaque. Et qui rerum qui dolores. Quasi doloribus ut omnis. Libero laudantium libero placeat dignissimos dolor provident ratione. 
+Dignissimos ut consequatur iste. Iusto rerum dignissimos labore. Vel officiis quisquam quos est enim tenetur. Facilis temporibus error nisi. 
+
+Incidunt illo voluptatem ad. Sit qui dolorem quas et ut earum eum tenetur. Qui rerum temporibus temporibus quibusdam. Aliquid delectus quae repudiandae illo rerum. Amet ipsa quia placeat consectetur temporibus facere dolores adipisci pariatur. Quo qui voluptatibus non.
+
+### Maiores tempora repellendus et
+
+Corrupti quia qui eaque. Et qui rerum qui dolores. Quasi doloribus ut omnis. Libero laudantium libero placeat dignissimos dolor provident ratione. 
+Dignissimos ut consequatur iste. Iusto rerum dignissimos labore. Vel officiis quisquam quos est enim tenetur. Facilis temporibus error nisi. 
+
+Incidunt illo voluptatem ad. Sit qui dolorem quas et ut earum eum tenetur. Qui rerum temporibus temporibus quibusdam. Aliquid delectus quae repudiandae illo rerum. Amet ipsa quia placeat consectetur temporibus facere dolores adipisci pariatur. Quo qui voluptatibus non.

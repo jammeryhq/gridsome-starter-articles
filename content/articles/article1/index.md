@@ -1,267 +1,113 @@
 ---
-title: The First Article Title
+title: Nisi expedita quas assumenda tempora consequatur aut
 tags: tag1, tag2
-excerpt: No sound but the muted purring of the arcade showed him broken lengths of damp chipboard and the drifting shoals
+excerpt: Aliquid non qui pariatur. Aut pariatur dolores facilis exercitationem fuga. Est suscipit voluptas eos perspiciatis consequuntur ut illum aut aut. Et rerum rerum adipisci quia et facilis saepe. Aliquid consectetur amet debitis dolorem aut ut voluptatibus.
 createdAt: 2019-11-01 11:26:00
 ---
 
-## Et quem natas acuto
+## Ipsum fugit ab dolor nesciunt magnam
 
-haribo
+**Pellentesque habitant morbi tristique** senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. _Aenean ultricies mi vitae est._ Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, `commodo vitae`, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. [Donec non enim](#) in turpis pulvinar facilisis. Ut felis.
 
-Lorem markdownum, faeno his Iuli trepidosque Alcyone robur vocem mentito
-furores. Estote tamen totidemque semina, arbore fissa: quas potest quia tanto
-interea, fine currunt aniles. Status Odrysius nec iuvenis facto sic cui nec tura
-erat; tibi. Quae aequales choreas Pleuron talibus, Epopeus eminet edidit per
-dixit vivum. Pondera quod enim praemia **clamavit** et quid vestem in, post
-faciem, infractaque malorum.
+1.  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+2.  Aliquam tincidunt mauris eu risus.
 
-1. Curribus cruentas cum fuge dicta
-2. Germanae ipsum
-3. Tempora teneat expugnare disicit optas motibus
-4. Congrediturque simul
-5. Monstrique unius cornibus
-6. Haut Achaidas Panchaia miserabile et ales tecta
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.
 
-### natas acuto
+### Aliquid nihil laudantium debitis saepe
 
-Lorem markdownum, faeno his Iuli trepidosque Alcyone robur vocem mentito
-furores. Estote tamen totidemque semina, arbore fissa: quas potest quia tanto
-interea, fine currunt aniles. Status Odrysius nec iuvenis facto sic cui nec tura
-erat; tibi. Quae aequales choreas Pleuron talibus, Epopeus eminet edidit per
-dixit vivum. Pondera quod enim praemia **clamavit** et quid vestem in, post
-faciem, infractaque malorum.
+*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+*   Aliquam tincidunt mauris eu risus.
 
-1. Curribus cruentas cum fuge dicta
-2. Germanae ipsum
-3. Tempora teneat expugnare disicit optas motibus
-4. Congrediturque simul
-5. Monstrique unius cornibus
-6. Haut Achaidas Panchaia miserabile et ales tecta
+```js{3,4,15-25}
 
-#### Et quem
+import {x, y} as p from 'point';
+const ANSWER = 42;
 
-Lorem markdownum, faeno his Iuli trepidosque Alcyone robur vocem mentito
-furores. Estote tamen totidemque semina, arbore fissa: quas potest quia tanto
-interea, fine currunt aniles. Status Odrysius nec iuvenis facto sic cui nec tura
-erat; tibi. Quae aequales choreas Pleuron talibus, Epopeus eminet edidit per
-dixit vivum. Pondera quod enim praemia **clamavit** et quid vestem in, post
-faciem, infractaque malorum.
+class Car extends Vehicle {
+  constructor(speed, cost) {
+    super(speed);
 
-1. Curribus cruentas cum fuge dicta
-2. Germanae ipsum
-3. Tempora teneat expugnare disicit optas motibus
-4. Congrediturque simul
-5. Monstrique unius cornibus
-6. Haut Achaidas Panchaia miserabile et ales tecta
+    var c = Symbol('cost');
+    this[c] = cost;
 
-## Oro nam habentem oculos imagine Anigrus
+    this.intro = `This is a car runs at
+      ${speed}.`;
+  }
+}
 
-Quae profugus penates, sustinet pro securi, deus **amabat** nomen quam uterque
-possent rector. Dei tumens erat, ingeniis aliquis solum incidit, et. Terram te
-illum pecoris *horriferum*, Cyllare numina undis tum oscula verti? Mihi novas
-pudor cernes?
+for (let num of [1, 2, 3]) {
+  console.log(num + 0b111110111);
+}
 
-## Huc nunc furtisque vimine habenas tympana
+function $initHighlight(block, flags) {
+  try {
+    if (block.className.search(/\bno\-highlight\b/) != -1)
+      return processBlock(block.function, true, 0x0F) + ' class=""';
+  } catch (e) {
+    /* handle exception */
+    var e4x =
+        <div>Example
+            <p>1234</p></div>;
+  }
+  for (var i = 0 / 2; i < classes.length; i++) {
+  // "0 / 2" should not be parsed as regexp
+    if (checkCondition(classes[i]) === undefined)
+      return /\d+[\s/]/g;
+  }
+  console.log(Array.every(classes, Boolean));
+}
 
-Apollineam linguas multa excussit sacras desuetaque frondis commonuit revertar
-erant viri sceptri pontus! Harundine caducas Romane; iaculum velut magna est
-[quaeque his satis](http://nec.org/), tantis! Fecit in tacui: tela in vimine
-continet, vehi. Cava perque inducta aquarum iam altis sui pressant virga.
-
-```
-    if (copy_infringement_veronica + point) {
-        bitScreenshotAlert = sidebar_wrap - installerIsaVolume;
-        hsf(pdf, time_vector_javascript, gifFile(-2, itunesTwitter));
-        boxMemoryTransfer = tebibyte_format_graphics + database_isa;
-    }
-    vrmlUser += -3;
-    intelligence_partition_script = 2;
-    if (goodput_index.streaming(69, page_ccd_digital) <= insertionSoftwareHoc *
-            firmware_ipad) {
-        party_bps = infringementKey;
-        pebibyteCybersquatter.expansion += blog_fiber_tutorial + lion(2);
-    } else {
-        systemRefreshSpeed -= kibibyte(thread_trim);
-        pcRight = docking_hypermedia * runtime + programming_flops_dot;
-        parameter_matrix(2, waveformIndexPpi);
-    }
+export  $initHighlight;
 ```
 
-## Minus sum
+#### Vero fugiat corrupti possimus sit voluptatem eos
 
-Ignotae petet aret quacumque satis. Posset velociter artus. Manu nec gurgite
-merum mirantur sigillis progenies radios ubi saxea [exemplum
-somnos](http://plus.org/quoque.html). Distantes palmis *ardor haerent* ingentes
-pars nostro pars nymphas, solus.
+* List Element 1
+  * List Element 1-1
+  * List Element 1-2
+    * List Element 1-2-1
+    * List Element 1-2-2
+      * List Element 1-2-2-1
+    * List Element 1-2-3
+  * List Element 1-3
+* List Element 2
 
-> Portusque nisi: Diana cladem et aether gaudent quoque prima tamen pallor
-> condidit, redimebat adest. Habitandae appellat pectora luctantiaque sensit te
-> inventa, ver dedit? *Per* et sterilem tollens incidit, *tenebat* infregit
-> altum cibis tamen et harundine populumque regia dempta carpe, inmota
-> subigebant?
+### Porro et saepe alias ullam voluptatibus ut est
 
-## Virgo1 iram nullo opus sed quod
+Corrupti quia qui eaque. Et qui rerum qui dolores. Quasi doloribus ut omnis. Libero laudantium libero placeat dignissimos dolor provident ratione. 
+Dignissimos ut consequatur iste. Iusto rerum dignissimos labore. Vel officiis quisquam quos est enim tenetur. Facilis temporibus error nisi. 
 
-Animalia tempora quos tamen quoque **vivacemque orbes** repressit tundunt
-tacitos. Attonitas inmemor et undas Ulixis videndo ludit visae effugimus
-fiducia, pars, bene quo caede gelidi in. **Auxilium perit est** quod tibi mora
-genetrix ulterius doctis, vultumque omine tellurem imbri.
+Incidunt illo voluptatem ad. Sit qui dolorem quas et ut earum eum tenetur. Qui rerum temporibus temporibus quibusdam. Aliquid delectus quae repudiandae illo rerum. Amet ipsa quia placeat consectetur temporibus facere dolores adipisci pariatur. Quo qui voluptatibus non.
 
-Stillanti fidemque et hunc essent contraxit et cetera manes, transire, intrat
-fronte quod tenetur? Meus vitae ecce paternum anxia siccantem nuda *metus*
-Emathiis progenuit. Viventia in viribus Aurorae Boreas luce thalamoque, erimus
-mater cura pericula? Licentia tamen Canens fluctibus laniata colla est gravida
-ambae huius.
+## Embed Examples
 
-## Virgo iram nullo opus sed quod
+### Youtube
 
-Animalia tempora quos tamen quoque **vivacemque orbes** repressit tundunt
-tacitos. Attonitas inmemor et undas Ulixis videndo ludit visae effugimus
-fiducia, pars, bene quo caede gelidi in. **Auxilium perit est** quod tibi mora
-genetrix ulterius doctis, vultumque omine tellurem imbri.
+https://www.youtube.com/embed/jMe6Y8GDVEI
 
-Stillanti fidemque et hunc essent contraxit et cetera manes, transire, intrat
-fronte quod tenetur? Meus vitae ecce paternum anxia siccantem nuda *metus*
-Emathiis progenuit. Viventia in viribus Aurorae Boreas luce thalamoque, erimus
-mater cura pericula? Licentia tamen Canens fluctibus laniata colla est gravida
-ambae huius.
+### Vimeo
 
-### Virgo
+https://vimeo.com/238447560
 
-Animalia tempora quos tamen quoque **vivacemque orbes** repressit tundunt
-tacitos. Attonitas inmemor et undas Ulixis videndo ludit visae effugimus
-fiducia, pars, bene quo caede gelidi in. **Auxilium perit est** quod tibi mora
-genetrix ulterius doctis, vultumque omine tellurem imbri.
+### JSFiddle
 
-Stillanti fidemque et hunc essent contraxit et cetera manes, transire, intrat
-fronte quod tenetur? Meus vitae ecce paternum anxia siccantem nuda *metus*
-Emathiis progenuit. Viventia in viribus Aurorae Boreas luce thalamoque, erimus
-mater cura pericula? Licentia tamen Canens fluctibus laniata colla est gravida
-ambae huius.
+https://jsfiddle.net/5F5cQ/1/
 
-#### Et quem 2
+### Gist
 
-Lorem markdownum, faeno his Iuli trepidosque Alcyone robur vocem mentito
-furores. Estote tamen totidemque semina, arbore fissa: quas potest quia tanto
-interea, fine currunt aniles. Status Odrysius nec iuvenis facto sic cui nec tura
-erat; tibi. Quae aequales choreas Pleuron talibus, Epopeus eminet edidit per
-dixit vivum. Pondera quod enim praemia **clamavit** et quid vestem in, post
-faciem, infractaque malorum.
+#### Simple
 
-1. Curribus cruentas cum fuge dicta
-2. Germanae ipsum
-3. Tempora teneat expugnare disicit optas motibus
-4. Congrediturque simul
-5. Monstrique unius cornibus
-6. Haut Achaidas Panchaia miserabile et ales tecta
+https://gist.github.com/noxify/4663ce9b7bee433c125a2fc12150a043
 
-#### Et quem 3
+#### Only `file1.js` & Line Highlight
 
-Lorem markdownum, faeno his Iuli trepidosque Alcyone robur vocem mentito
-furores. Estote tamen totidemque semina, arbore fissa: quas potest quia tanto
-interea, fine currunt aniles. Status Odrysius nec iuvenis facto sic cui nec tura
-erat; tibi. Quae aequales choreas Pleuron talibus, Epopeus eminet edidit per
-dixit vivum. Pondera quod enim praemia **clamavit** et quid vestem in, post
-faciem, infractaque malorum.
+https://gist.github.com/noxify/4663ce9b7bee433c125a2fc12150a043?file=file1.js&highlights=1,3,5-10,15-20
 
-1. Curribus cruentas cum fuge dicta
-2. Germanae ipsum
-3. Tempora teneat expugnare disicit optas motibus
-4. Congrediturque simul
-5. Monstrique unius cornibus
-6. Haut Achaidas Panchaia miserabile et ales tecta
+### Giphy
 
-#### Virgo iram 1
+https://giphy.com/gifs/snl-saturday-night-live-season-42-l0Iy9Cmo47OtCv4xG
 
-Animalia tempora quos tamen quoque **vivacemque orbes** repressit tundunt
-tacitos. Attonitas inmemor et undas Ulixis videndo ludit visae effugimus
-fiducia, pars, bene quo caede gelidi in. **Auxilium perit est** quod tibi mora
-genetrix ulterius doctis, vultumque omine tellurem imbri.
+### Codepen
 
-Stillanti fidemque et hunc essent contraxit et cetera manes, transire, intrat
-fronte quod tenetur? Meus vitae ecce paternum anxia siccantem nuda *metus*
-Emathiis progenuit. Viventia in viribus Aurorae Boreas luce thalamoque, erimus
-mater cura pericula? Licentia tamen Canens fluctibus laniata colla est gravida
-ambae huius.
-
-### nullo opus sed quod
-
-Animalia tempora quos tamen quoque **vivacemque orbes** repressit tundunt
-tacitos. Attonitas inmemor et undas Ulixis videndo ludit visae effugimus
-fiducia, pars, bene quo caede gelidi in. **Auxilium perit est** quod tibi mora
-genetrix ulterius doctis, vultumque omine tellurem imbri.
-
-Stillanti fidemque et hunc essent contraxit et cetera manes, transire, intrat
-fronte quod tenetur? Meus vitae ecce paternum anxia siccantem nuda *metus*
-Emathiis progenuit. Viventia in viribus Aurorae Boreas luce thalamoque, erimus
-mater cura pericula? Licentia tamen Canens fluctibus laniata colla est gravida
-ambae huius.
-
-#### Et quem 5
-
-#### Et quem 6
-
-#### Et quem 7
-
-#### Et quem 8
-
-#### Et quem 9
-
-#### Et quem 3
-
-Lorem markdownum, faeno his Iuli trepidosque Alcyone robur vocem mentito
-furores. Estote tamen totidemque semina, arbore fissa: quas potest quia tanto
-interea, fine currunt aniles. Status Odrysius nec iuvenis facto sic cui nec tura
-erat; tibi. Quae aequales choreas Pleuron talibus, Epopeus eminet edidit per
-dixit vivum. Pondera quod enim praemia **clamavit** et quid vestem in, post
-faciem, infractaque malorum.
-
-1. Curribus cruentas cum fuge dicta
-2. Germanae ipsum
-3. Tempora teneat expugnare disicit optas motibus
-4. Congrediturque simul
-5. Monstrique unius cornibus
-6. Haut Achaidas Panchaia miserabile et ales tecta
-
-#### Et quem 4
-
-Lorem markdownum, faeno his Iuli trepidosque Alcyone robur vocem mentito
-furores. Estote tamen totidemque semina, arbore fissa: quas potest quia tanto
-interea, fine currunt aniles. Status Odrysius nec iuvenis facto sic cui nec tura
-erat; tibi. Quae aequales choreas Pleuron talibus, Epopeus eminet edidit per
-dixit vivum. Pondera quod enim praemia **clamavit** et quid vestem in, post
-faciem, infractaque malorum.
-
-1. Curribus cruentas cum fuge dicta
-2. Germanae ipsum
-3. Tempora teneat expugnare disicit optas motibus
-4. Congrediturque simul
-5. Monstrique unius cornibus
-6. Haut Achaidas Panchaia miserabile et ales tecta
-
-#### nullo opus
-
-Animalia tempora quos tamen quoque **vivacemque orbes** repressit tundunt
-tacitos. Attonitas inmemor et undas Ulixis videndo ludit visae effugimus
-fiducia, pars, bene quo caede gelidi in. **Auxilium perit est** quod tibi mora
-genetrix ulterius doctis, vultumque omine tellurem imbri.
-
-Stillanti fidemque et hunc essent contraxit et cetera manes, transire, intrat
-fronte quod tenetur? Meus vitae ecce paternum anxia siccantem nuda *metus*
-Emathiis progenuit. Viventia in viribus Aurorae Boreas luce thalamoque, erimus
-mater cura pericula? Licentia tamen Canens fluctibus laniata colla est gravida
-ambae huius.
-
-##### opus sed quod
-
-Animalia tempora quos tamen quoque **vivacemque orbes** repressit tundunt
-tacitos. Attonitas inmemor et undas Ulixis videndo ludit visae effugimus
-fiducia, pars, bene quo caede gelidi in. **Auxilium perit est** quod tibi mora
-genetrix ulterius doctis, vultumque omine tellurem imbri.
-
-Stillanti fidemque et hunc essent contraxit et cetera manes, transire, intrat
-fronte quod tenetur? Meus vitae ecce paternum anxia siccantem nuda *metus*
-Emathiis progenuit. Viventia in viribus Aurorae Boreas luce thalamoque, erimus
-mater cura pericula? Licentia tamen Canens fluctibus laniata colla est gravida
-ambae huius.
+https://codepen.io/goodkatz/pen/LYPGxQz
