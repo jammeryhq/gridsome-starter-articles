@@ -3,9 +3,9 @@
     <div
       v-if="subtitles.length > 0"
       class="toc">
-      <p class="border-b-4 pb-3 border-gray-200 text-xl">
+      <h3 class="border-b-4 pb-3 mb-3 border-gray-200 text-xl">
         On this page
-      </p>
+      </h3>
       <ul class="pl-0">
         <li
           v-for="subtitle in subtitles"
@@ -23,10 +23,10 @@
     <div
       v-if="record.tags && record.tags.length>0"
       class="tags d-lg-block d-none"
-      :class="[subtitles.length>0 ? 'mt-3' : '']">
-      <p class="border-b-4 pb-3 border-gray-200 text-xl">
+      :class="[subtitles.length>0 ? 'mt-4' : '']">
+      <h3 class="border-b-4 pb-3 mb-3 border-gray-200 text-xl">
         Tags
-      </p>
+      </h3>
       <div class="tags-items break-words">
         <g-link
           v-for="tag in record.tags"
@@ -42,7 +42,14 @@
 
 <script>
 export default {
-  props: ['record'],
+  props: {
+    record: {
+      type: Object,
+      default () {
+        return {}
+      }
+    }
+  },
 
   computed: {
     subtitles () {

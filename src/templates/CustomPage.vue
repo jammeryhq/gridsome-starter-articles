@@ -10,9 +10,9 @@
       </template>
 
       <template v-slot:content>
-        <p class="text-4xl md:text-6xl">
+        <h1 class="text-4xl md:text-6xl">
           {{ $page.entry.title }}
-        </p>
+        </h1>
         <p
           v-if="$page.entry.subtitle !== null"
           class="text-lg md:text-2xl">
@@ -24,7 +24,7 @@
     <div class="container text-left mx-auto">
       <div class="flex flex-wrap py-12">
         <div
-          class="w-full px-5 text-lg"
+          class="w-full px-5 prose lg:prose-xl max-w-none"
           :class="{'md:w-3/4' : $page.entry.sidebar === true}">
           <div v-html="$page.entry.content" />
         </div>

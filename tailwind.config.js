@@ -99,7 +99,8 @@ module.exports = {
     aspectRatio: ['responsive']
   },
   plugins: [
-    require('tailwindcss-aspect-ratio')
+    require('tailwindcss-aspect-ratio'),
+    require('@tailwindcss/typography')
   ],
   future: {
     removeDeprecatedGapUtilities: true

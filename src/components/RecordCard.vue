@@ -3,8 +3,9 @@
     <div
       class="h-full border-2 border-gray-200 rounded-lg overflow-hidden relative hover:bg-shark-50 hover:bg-opacity-60">
       <div class="p-6">
-        <h1 class="title-font text-2xl font-medium text-gray-900 mb-3"
-        :class="{'mb-12' : !record.excerpt}">
+        <h1
+          class="title-font text-2xl font-medium text-gray-900 mb-3"
+          :class="{'mb-12' : !record.excerpt}">
           {{ record.title }}
         </h1>
         <div
@@ -59,7 +60,12 @@
 <script>
 export default {
   props: {
-    record: {}
+    record: {
+      type: Object,
+      default () {
+        return {}
+      }
+    }
   }
 };
 </script>
