@@ -32,7 +32,7 @@
       </div>
 
       <div>
-        <h3 class="border-b-4 pb-3 mt-3 border-gray-200 text-xl">
+        <h3 class="border-b-4 pb-3 mt-6 border-gray-200 text-xl">
           Filter by tag
         </h3>
         <ul class="pl-0">
