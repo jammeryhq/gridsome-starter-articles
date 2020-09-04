@@ -172,20 +172,31 @@ pre[class*="language-"]>code[class*="language-"] {
     @apply bg-shark-50;
     border-radius: 0.3em;
     margin: 0.5em 0;
-    padding: 1em;
+    @apply pl-5;
     overflow: auto;
     @apply text-sm;
 }
 
+
 .gridsome-highlight-code-line {
     @apply bg-shark-100;
     display: block;
-    margin-right: -1em;
-    margin-left: -1em;
-    padding-right: 1em;
-    padding-left: 0.75em;
     @apply border-l-4;
     @apply border-gray-500;
+
+    margin-left:-1.1rem;
+    @apply pr-4;
+    @apply pl-3;
+        
+    
+}
+
+@screen lg {
+    .gridsome-highlight-code-line {
+        @apply -ml-6;
+        @apply pr-4;
+        @apply pl-5;
+    }
 }
 
 /**

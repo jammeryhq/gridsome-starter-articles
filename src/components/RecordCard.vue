@@ -1,5 +1,7 @@
 <template>
-  <div class="p-4 w-full" :class="cardSize">
+  <div
+    class="p-4 w-full"
+    :class="cardSize">
     <div
       class="h-full border-2 border-gray-200 rounded-lg overflow-hidden relative hover:bg-shark-50 hover:bg-opacity-60">
       <div class="p-6">

@@ -2,20 +2,22 @@
   <Layout>
     <PageHeader>
       <template v-slot:content>
-        <h1 class="text-4xl md:text-6xl">
+        <h1 class="text-4xl lg:text-6xl">
           {{ $page.entry.title }}
         </h1>
       </template>
     </PageHeader>
 
     <div class="container text-left mx-auto">
-      <div class="flex flex-wrap py-12">
-        <div class="w-full md:w-3/4 px-5 prose lg:prose-xl max-w-none">
-          <div v-html="$page.entry.content" />
+      <div class="flex flex-wrap lg:flex-row-reverse py-12">
+        <div class="w-full lg:w-1/4 px-5">
+          <PageSidebar :record="$page.entry" />
         </div>
 
-        <div class="w-full md:w-1/4 px-5">
-          <PageSidebar :record="$page.entry" />
+        <div class="w-full lg:w-3/4 px-5 prose lg:prose-xl max-w-none">
+          <div
+            class="content"
+            v-html="$page.entry.content" />
         </div>
       </div>
     </div>

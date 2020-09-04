@@ -27,7 +27,7 @@
 
     <div
       v-if="showOptions === true"
-      class="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg z-1000">
+      class="origin-top-right absolute right-0 mt-2 w-64 rounded-md shadow-lg z-1000">
       <div class="rounded-md bg-white shadow-xs">
         <div
           class="py-1"
