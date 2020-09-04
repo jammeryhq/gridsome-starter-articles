@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<a href="https://www.jammeryhq.com" itle="JammeryHQ">
+<a href="https://www.jammeryhq.com" title="JammeryHQ">
 
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="56 55.275 209.915 65" width="279.887" height="65pt" class="w-full h-auto" style="isolation:isolate;">
     <g fill="currentColor">
