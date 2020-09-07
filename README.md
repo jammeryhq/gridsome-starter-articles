@@ -3,7 +3,7 @@
 
 <a href="https://www.jammeryhq.com" title="JammeryHQ" target="_blank">
 
-  ![JammeryHQ](./jammeryhq.png)
+  <img src="./jammeryhq.png" width="128" />
   
 </a>
 
@@ -33,7 +33,7 @@ The articles starter is built with tailwindcss.
 Run the following command to create a new gridsome project 
 
 ```
-gridsome create my-blog https://github.com/noxify/gridsome-starter-articles
+gridsome create my-blog https://github.com/jammeryhq/gridsome-starter-articles
 ```
 
 ## Plugins
