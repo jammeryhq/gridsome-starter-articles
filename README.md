@@ -19,7 +19,7 @@ Gridsome starter that is ideal for articles/tutorials that uses markdown for the
 
 ## Key features
 
-* Built with tailwindcss
+* Built with Tailwind CSS
 * Responsive 
 * Fulltext search
 * Dynamic custom pages
