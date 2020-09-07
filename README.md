@@ -16,7 +16,7 @@ Fast-track your JAMstack development & learning
 
 ## About the starter
 
-The articles starter is built with tailwindcss.
+Gridsome starter that is ideal for articles/tutorials that uses markdown for the content and Tailwind CSS for the styles.
 
 ## Key features
 
