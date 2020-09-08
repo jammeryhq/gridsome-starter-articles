@@ -2,7 +2,7 @@
 
 <a href="https://www.jammeryhq.com" title="JammeryHQ" target="_blank">
 
-  <img src="./jammeryhq.png" width="128" />
+  <img src="https://jammeryhq.com/jammeryhq.png" width="128" />
   
 </a>
 
