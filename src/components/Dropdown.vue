@@ -1,5 +1,5 @@
 <template>
-  <div class="relative inline-block text-left ml-2">
+  <div class="relative inline-block text-left ml-2 block lg:hidden">
     <div>
       <span class="rounded-md shadow-sm">
         <button
