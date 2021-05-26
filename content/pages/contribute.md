@@ -31,7 +31,7 @@ Whatever the reason is - Thank you!
 
 ## How to contribute
 
-1. Clone ( or fork ) our [website repository](https://github.com/ITSMPlus/itsm.plus)
+1. Clone ( or fork ) our [website repository](https://github.com/username/reponame)
 2. Install the required dependencies via `yarn` or `npm install`
 3. Run `gridsome develop` to have a local preview
 4. Create a new news/article/resource entry
